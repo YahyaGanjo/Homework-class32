@@ -26,8 +26,19 @@ const employeeRecords = [
   },
 ];
 
-function filterPrivateData(/* parameter(s) go here */) {
-  // TODO complete this function
+function filterPrivateData(originalArray) {
+  // create a new array to contain employee non-private data.
+  const newArray = [];
+  // iterate the original array.
+  for (const allEmployeeData of originalArray) {
+    // grab certain properties from its objects
+    const { name, occupation, email } = allEmployeeData;
+    // construct new object with wanted keys
+    const nonPrivateData = { name, occupation, email };
+    // push the new object to the new array
+    newArray.push(nonPrivateData);
+  }
+  return newArray;
 }
 
 console.log(filterPrivateData(employeeRecords));
