@@ -21,8 +21,17 @@ you have more than 3 items in your shopping cart the first item gets taken out.
 -----------------------------------------------------------------------------*/
 const shoppingCart = ['bananas', 'milk'];
 
-function addToShoppingCart(/* parameters go here */) {
-  // TODO complete this function
+function addToShoppingCart(groceryItem) {
+  shoppingCart.push(groceryItem);
+
+  // removing the 1st element when the array reaches 4 elements
+  if (shoppingCart.length > 3) {
+    shoppingCart.shift();
+  }
+
+  const groceries = shoppingCart.join(', ');
+
+  return `You bought ${groceries}!`;
 }
 
 console.log(addToShoppingCart('chocolate')); // "You bought bananas, milk, chocolate!"
