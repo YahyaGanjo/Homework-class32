@@ -40,3 +40,48 @@ ex1-giveCompliment.js:40:17 - Unknown word (Yahya)
 2021-05-05 03:48:11 info: -------------------------------------------------
 2021-05-05 03:48:16 info: All unit tests passed.
 2021-05-05 03:48:20 info: All steps were completed successfully
+2021-05-05 03:51:35 info: -----------------------------------------
+2021-05-05 03:51:35 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-05 03:51:35 info: -----------------------------------------
+2021-05-05 03:51:40 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €87.20
+  Received: Total: €87.2
+
+2021-05-05 03:57:21 info: -----------------------------------------
+2021-05-05 03:57:21 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-05 03:57:21 info: -----------------------------------------
+2021-05-05 03:57:27 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should return the total price in Euros
+  Expected: Total: €87.20
+  Received: Total: €87.2
+
+2021-05-05 03:57:55 info: -----------------------------------------
+2021-05-05 03:57:55 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-05 03:57:55 info: -----------------------------------------
+2021-05-05 03:58:00 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should exist and be executable
+
+2021-05-05 03:59:15 info: -----------------------------------------
+2021-05-05 03:59:15 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-05 03:59:15 info: -----------------------------------------
+2021-05-05 03:59:20 error: *** Unit Test Error Report ***
+
+- calculateTotalPrice should exist and be executable
+
+2021-05-05 03:59:22 error: *** ESLint Report ***
+
+ex6-totalCost.js
+  36:35  error  Parsing error: Unexpected token ;
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-05-05 03:59:51 info: -----------------------------------------
+2021-05-05 03:59:51 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-05-05 03:59:51 info: -----------------------------------------
+2021-05-05 03:59:56 info: All unit tests passed.
+2021-05-05 04:00:00 info: All steps were completed successfully

@@ -20,12 +20,23 @@ instead!
    Use `console.log` to display the result.
 -----------------------------------------------------------------------------*/
 const cartForParty = {
-  // TODO complete this object
+  beers: 10,
+  chips: 20,
+  pies: 25,
+  nuts: 16.7,
+  popCorn: 15.5,
 };
 
-function calculateTotalPrice(/* TODO parameter(s) go here */) {
-  // TODO replace this comment with your code
+function calculateTotalPrice(partyCart) {
+  let sum = 0;
+  // eslint-disable-next-line no-restricted-syntax
+  for (const groceryItem in partyCart) {
+    sum += partyCart[groceryItem];
+  }
+  return `Total: €${sum.toFixed(2)}`;
 }
+
+console.log(calculateTotalPrice(cartForParty));
 
 // this is one example, you will need to write a different object
 calculateTotalPrice({
