@@ -25,3 +25,8 @@ ex1-giveCompliment.js:40:17 - Unknown word (Yahya)
 2021-05-05 03:28:08 info: ----------------------------------------
 2021-05-05 03:28:14 info: All unit tests passed.
 2021-05-05 03:28:19 info: All steps were completed successfully
+2021-05-05 03:39:33 info: -------------------------------------------
+2021-05-05 03:39:33 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-05-05 03:39:33 info: -------------------------------------------
+2021-05-05 03:39:39 info: All unit tests passed.
+2021-05-05 03:39:43 info: All steps were completed successfully

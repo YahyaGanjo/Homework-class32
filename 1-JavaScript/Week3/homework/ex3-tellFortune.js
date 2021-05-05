@@ -25,30 +25,37 @@ Note: The DRY is put into practice here: instead of repeating the code to
 randomly select array elements four times inside the `tellFortune` function 
 body, this code is now written once only in a separated function.
 -----------------------------------------------------------------------------*/
-const numKids = [
-  // TODO add elements here
-];
+const numKids = [1, 2, 3, 4, 5];
 
-const partnerNames = [
-  // TODO add elements here
-];
+const partnerNames = ['Julia', 'Sarah', 'Monica', 'Sophie', 'Kate'];
 
-const locations = [
-  // TODO add elements here
-];
+const locations = ['Amsterdam', 'Rotterdam', 'Rome', 'Madrid', 'London'];
 
 const jobTitles = [
-  // TODO add elements here
+  'Web Designer',
+  'Project Manager',
+  'Account Executive',
+  'Doctor',
+  'Librarian',
 ];
 
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
-function selectRandomly(/* TODO parameter(s) go here */) {
-  // TODO complete this function
-}
+function selectRandomly(arr) {
+  let random;
+  // this loop to ensure getting a number between 0 and 4
+  do {
+    random = Math.floor(Math.random() * 10);
+  } while (random > 4);
 
-function tellFortune(/* add parameter(s) here */) {
-  // TODO complete this function
+  // to return a random element from the array
+  return arr[random];
+}
+// prettier-ignore
+function tellFortune(numberOfChildren, partnersName, location, jobTitle) {
+  return `You will be a ${selectRandomly(jobTitle)} in ${selectRandomly(
+    location)}, married to ${selectRandomly(partnersName)} with ${selectRandomly(
+    numberOfChildren)} kids.`;
 }
 
 console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
