@@ -35,3 +35,8 @@ ex1-giveCompliment.js:40:17 - Unknown word (Yahya)
 2021-05-05 03:43:48 info: --------------------------------------------
 2021-05-05 03:43:53 info: All unit tests passed.
 2021-05-05 03:43:58 info: All steps were completed successfully
+2021-05-05 03:48:11 info: -------------------------------------------------
+2021-05-05 03:48:11 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-05-05 03:48:11 info: -------------------------------------------------
+2021-05-05 03:48:16 info: All unit tests passed.
+2021-05-05 03:48:20 info: All steps were completed successfully
