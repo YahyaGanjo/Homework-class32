@@ -1,0 +1,22 @@
+2021-05-05 03:19:27 info: ----------------------------------------------
+2021-05-05 03:19:27 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-05 03:19:27 info: ----------------------------------------------
+2021-05-05 03:19:33 info: All unit tests passed.
+2021-05-05 03:19:38 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:17 - Unknown word (Yahya)
+
+2021-05-05 03:19:44 info: Disclaimer turned off
+2021-05-05 03:20:41 info: ----------------------------------------------
+2021-05-05 03:20:41 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-05 03:20:41 info: ----------------------------------------------
+2021-05-05 03:20:45 info: All unit tests passed.
+2021-05-05 03:20:50 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:40:17 - Unknown word (Yahya)
+
+2021-05-05 03:21:11 info: ----------------------------------------------
+2021-05-05 03:21:11 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-05-05 03:21:11 info: ----------------------------------------------
+2021-05-05 03:21:16 info: All unit tests passed.
+2021-05-05 03:21:20 info: All steps were completed successfully
