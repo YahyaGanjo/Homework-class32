@@ -90,3 +90,8 @@ ex6-totalCost.js
 2021-05-05 04:13:48 info: -------------------------------------------
 2021-05-05 04:13:55 info: All unit tests passed.
 2021-05-05 04:14:01 info: All steps were completed successfully
+2021-05-11 01:55:26 info: -------------------------------------------------
+2021-05-11 01:55:26 info: >>> Running Unit Test `ex1-doubleEvenNumbers` <<<
+2021-05-11 01:55:26 info: -------------------------------------------------
+2021-05-11 01:55:32 info: All unit tests passed.
+2021-05-11 01:55:37 info: All steps were completed successfully
