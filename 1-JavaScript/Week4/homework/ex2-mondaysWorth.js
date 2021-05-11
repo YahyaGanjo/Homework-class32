@@ -29,8 +29,20 @@ const mondayTasks = [
 
 const hourlyRate = 25;
 
-function computeEarnings(/* TODO parameter(s) go here */) {
+function computeEarnings(tasks, rate) {
   // TODO complete this function
+
+  // creating a new array containing only the duration's amounts
+  const durationsArray = tasks.map((task) => task.duration);
+
+  // calculating the total duration in minutes
+  const totalMinutes = durationsArray.reduce(
+    (accumulator, currentValue) => accumulator + currentValue
+  );
+
+  // calculating earnings in €
+  const allEarnings = (totalMinutes / 60) * rate;
+  return `€${allEarnings.toFixed(2)}`;
 }
 
 // example use case
