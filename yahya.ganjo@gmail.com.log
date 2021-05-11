@@ -95,3 +95,20 @@ ex6-totalCost.js
 2021-05-11 01:55:26 info: -------------------------------------------------
 2021-05-11 01:55:32 info: All unit tests passed.
 2021-05-11 01:55:37 info: All steps were completed successfully
+2021-05-11 04:29:48 info: --------------------------------------------
+2021-05-11 04:29:48 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-05-11 04:29:48 info: --------------------------------------------
+2021-05-11 04:29:56 error: *** Unit Test Error Report ***
+
+- mondaysWorth should use `map`
+
+2021-05-11 04:40:58 info: --------------------------------------------
+2021-05-11 04:40:58 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-05-11 04:40:58 info: --------------------------------------------
+2021-05-11 04:41:03 info: All unit tests passed.
+2021-05-11 04:41:08 info: All steps were completed successfully
+2021-05-11 04:41:47 info: --------------------------------------------
+2021-05-11 04:41:47 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-05-11 04:41:47 info: --------------------------------------------
+2021-05-11 04:41:52 info: All unit tests passed.
+2021-05-11 04:41:57 info: All steps were completed successfully
