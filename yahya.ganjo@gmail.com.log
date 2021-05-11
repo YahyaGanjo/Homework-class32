@@ -140,3 +140,31 @@ ex6-totalCost.js
 2021-05-11 06:21:39 info: ------------------------------------------------
 2021-05-11 06:21:46 info: All unit tests passed.
 2021-05-11 06:21:52 info: All steps were completed successfully
+2021-05-11 07:34:28 info: --------------------------------------
+2021-05-11 07:34:28 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-05-11 07:34:28 info: --------------------------------------
+2021-05-11 07:34:35 error: *** Unit Test Error Report ***
+
+- wallet q1: At line 26, which variables are in the scope marked Closure?
+- wallet q2: What is in the Call Stack, from top to bottom?
+- wallet q3: What tooltip appears when hovering over the third debug button?
+- wallet q4: What is displayed in the console?
+- wallet q5: The owner of the wallet with insufficient funds is:
+
+2021-05-11 07:34:38 error: *** ESLint Report ***
+
+ex5-wallet/index.js
+   80:13  error  'b' is not defined  no-undef
+   89:13  error  'c' is not defined  no-undef
+   98:13  error  'a' is not defined  no-undef
+  107:13  error  'a' is not defined  no-undef
+  116:13  error  'c' is not defined  no-undef
+
+✖ 5 problems (5 errors, 0 warnings)
+
+
+2021-05-11 07:37:14 info: --------------------------------------
+2021-05-11 07:37:14 info: >>> Running Unit Test `ex5-wallet` <<<
+2021-05-11 07:37:14 info: --------------------------------------
+2021-05-11 07:37:19 info: All unit tests passed.
+2021-05-11 07:37:24 info: All steps were completed successfully
