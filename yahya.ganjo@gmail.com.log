@@ -112,3 +112,26 @@ ex6-totalCost.js
 2021-05-11 04:41:47 info: --------------------------------------------
 2021-05-11 04:41:52 info: All unit tests passed.
 2021-05-11 04:41:57 info: All steps were completed successfully
+2021-05-11 05:06:09 info: --------------------------------------------
+2021-05-11 05:06:09 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-05-11 05:06:09 info: --------------------------------------------
+2021-05-11 05:06:16 error: *** Unit Test Error Report ***
+
+- sanitizeFruitBasket should list the sanitized fruit basket
+  Expected: My mom bought me a fruit basket containing apple, grapefruit, banana, watermelon!
+  Received: My mom bought me a fruit basket, containing apple, grapefruit, banana, watermelon
+
+2021-05-11 05:08:26 info: --------------------------------------------
+2021-05-11 05:08:26 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-05-11 05:08:26 info: --------------------------------------------
+2021-05-11 05:08:31 error: *** Unit Test Error Report ***
+
+- sanitizeFruitBasket should list the sanitized fruit basket
+  Expected: My mom bought me a fruit basket containing apple, grapefruit, banana, watermelon!
+  Received: My mom bought me a fruit basket, containing apple, grapefruit, banana, watermelon!
+
+2021-05-11 05:09:14 info: --------------------------------------------
+2021-05-11 05:09:14 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-05-11 05:09:14 info: --------------------------------------------
+2021-05-11 05:09:19 info: All unit tests passed.
+2021-05-11 05:09:23 info: All steps were completed successfully
