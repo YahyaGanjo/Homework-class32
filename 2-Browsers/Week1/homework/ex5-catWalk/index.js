@@ -20,7 +20,39 @@
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
 function catWalk() {
-  // TODO complete this function
+  // select img and bring it to the left edge
+  const cat = document.querySelector('img');
+
+  // inner function to move the cat 10px every 50 millisecond
+  let position = 0;
+  function moveCat() {
+    cat.style.left = `${position}px`;
+    position += 10;
+
+    // replace the cat in the left side when it reaches the right edge
+    if (
+      position === window.innerWidth ||
+      position === document.body.clientWidth
+    ) {
+      position = 0;
+    }
+
+    // switch to dance cat then back to the original
+    if (
+      position === window.innerWidth / 2 ||
+      position === document.body.clientWidth / 2
+    ) {
+      cat.src =
+        'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+      setTimeout(function () {
+        cat.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
+      }, 5000);
+    }
+  }
+
+  // to keep the img moving
+  setInterval(moveCat, 50);
 }
 
-// TODO execute `catWalk` when the browser has completed loading the page
+// executing `catWalk` when the browser has completed loading the page
+window.addEventListener('DOMContentLoaded', catWalk);

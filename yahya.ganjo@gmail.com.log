@@ -223,3 +223,13 @@ ex5-wallet/index.js
 2021-05-18 06:02:57 info: --------------------------------------------
 2021-05-18 06:03:05 info: All unit tests passed.
 2021-05-18 06:03:11 info: All steps were completed successfully
+2021-05-19 12:07:45 info: ---------------------------------------
+2021-05-19 12:07:46 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-19 12:07:46 info: ---------------------------------------
+2021-05-19 12:07:57 info: All unit tests passed.
+2021-05-19 12:08:03 info: All steps were completed successfully
+2021-05-19 12:15:07 info: ---------------------------------------
+2021-05-19 12:15:07 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-19 12:15:07 info: ---------------------------------------
+2021-05-19 12:15:15 info: All unit tests passed.
+2021-05-19 12:15:20 info: All steps were completed successfully
