@@ -40,7 +40,50 @@ const myBooks = [
 ];
 
 function createBookList(books) {
-  // your code goes in here, return the ul element
+  // get p from the objects array
+
+  const titleAuthor = books.map((book) => {
+    const paragraph = document.createElement('p');
+    paragraph.appendChild(
+      document.createTextNode(`${book.title} by ${book.author}`)
+    );
+    paragraph.style.textAlign = 'center';
+    return paragraph;
+  });
+
+  // create ul and append lis to it
+  const booksList = document.createElement('ul');
+  booksList.style.listStyle = 'none';
+  booksList.style.display = 'flex';
+  titleAuthor.forEach((paragraph) => {
+    const listItems = document.createElement('li');
+    listItems.appendChild(paragraph);
+    booksList.appendChild(listItems);
+  });
+
+  // make a function to link each li with an img
+
+  function addImage(item, url) {
+    const cover = document.createElement('img');
+    cover.src = url;
+    cover.style.padding = '40px';
+    item.appendChild(cover);
+  }
+  const listItems = booksList.querySelectorAll('li');
+  addImage(listItems[0], 'assets/the_design_of_everyday_things.jpg');
+  addImage(listItems[1], 'assets/the_most_human_human.jpg');
+  addImage(listItems[2], 'assets/the_pragmatic_programmer.jpg');
+
+  // set the background color of each list item
+
+  for (let i = 0; i < listItems.length; i++) {
+    if (books[i].alreadyRead === true) {
+      listItems[i].style.backgroundColor = 'green';
+    } else {
+      listItems[i].style.backgroundColor = 'red';
+    }
+  }
+  return booksList;
 }
 
 const ulElement = createBookList(myBooks);
