@@ -233,3 +233,32 @@ ex5-wallet/index.js
 2021-05-19 12:15:07 info: ---------------------------------------
 2021-05-19 12:15:15 info: All unit tests passed.
 2021-05-19 12:15:20 info: All steps were completed successfully
+2021-05-19 09:37:35 info: ---------------------------------------
+2021-05-19 09:37:35 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-19 09:37:35 info: ---------------------------------------
+2021-05-19 09:37:46 info: All unit tests passed.
+2021-05-19 09:37:52 info: All steps were completed successfully
+2021-05-19 09:38:07 info: ------------------------------------------
+2021-05-19 09:38:07 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-19 09:38:07 info: ------------------------------------------
+2021-05-19 09:38:13 error: *** Unit Test Error Report ***
+
+- Game Of Life: a living cell with zero living neighbors should die and have its life time reset to zero
+- Game Of Life: a living cell with one living neighbor should die and have its life time reset to zero
+- Game Of Life: a living cell with four living neighbors should die and have its life time reset to zero
+
+2021-05-19 09:39:53 info: ------------------------------------------
+2021-05-19 09:39:53 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-19 09:39:53 info: ------------------------------------------
+2021-05-19 09:39:58 info: All unit tests passed.
+2021-05-19 09:40:03 info: All steps were completed successfully
+2021-05-19 09:47:00 info: ------------------------------------------
+2021-05-19 09:47:00 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-19 09:47:00 info: ------------------------------------------
+2021-05-19 09:47:06 info: All unit tests passed.
+2021-05-19 09:47:11 info: All steps were completed successfully
+2021-05-19 09:59:33 info: ------------------------------------------
+2021-05-19 09:59:33 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-05-19 09:59:33 info: ------------------------------------------
+2021-05-19 09:59:39 info: All unit tests passed.
+2021-05-19 09:59:44 info: All steps were completed successfully
