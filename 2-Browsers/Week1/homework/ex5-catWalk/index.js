@@ -33,7 +33,7 @@ function catWalk() {
     cat.style.left = `${position}px`;
     position += 10;
 
-    // replace the cat in the left side when it reaches the right edge
+    // restart the cat moving from the left side when it reaches the right edge
     if (position === document.body.clientWidth) {
       position = 0;
     }
