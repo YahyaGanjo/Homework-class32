@@ -23,35 +23,32 @@ function catWalk() {
   // select img and bring it to the left edge
   const cat = document.querySelector('img');
 
-  // inner function to move the cat 10px every 50 millisecond
   let position = 0;
+
+  // to keep the img moving
+  let moveTheCat = setInterval(moveCat, 50);
+
+  // This function to move the cat 10px every 50 millisecond
   function moveCat() {
     cat.style.left = `${position}px`;
     position += 10;
 
     // replace the cat in the left side when it reaches the right edge
-    if (
-      position === window.innerWidth ||
-      position === document.body.clientWidth
-    ) {
+    if (position === document.body.clientWidth) {
       position = 0;
     }
 
     // switch to dance cat then back to the original
-    if (
-      position === window.innerWidth / 2 ||
-      position === document.body.clientWidth / 2
-    ) {
+    if (position === document.body.clientWidth / 2) {
+      clearInterval(moveTheCat);
       cat.src =
         'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
       setTimeout(function () {
+        moveTheCat = setInterval(moveCat, 50);
         cat.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';
       }, 5000);
     }
   }
-
-  // to keep the img moving
-  setInterval(moveCat, 50);
 }
 
 // executing `catWalk` when the browser has completed loading the page
