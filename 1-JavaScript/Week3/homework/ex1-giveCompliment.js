@@ -32,7 +32,7 @@ function giveCompliment(name) {
   ];
 
   // to generate a random number between 0 and 9
-  const random = Math.floor(Math.random() * 10);
+  const random = Math.floor(Math.random() * compliments.length);
 
   return `You are ${compliments[random]}, ${name}!`;
 }

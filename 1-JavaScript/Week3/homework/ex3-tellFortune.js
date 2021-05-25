@@ -42,14 +42,7 @@ const jobTitles = [
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
 function selectRandomly(arr) {
-  let random;
-  // this loop to ensure getting a number between 0 and 4
-  do {
-    random = Math.floor(Math.random() * 10);
-  } while (random > 4);
-
-  // to return a random element from the array
-  return arr[random];
+  return arr[Math.floor(Math.random() * arr.length)];
 }
 // prettier-ignore
 function tellFortune(numberOfChildren, partnersName, location, jobTitle) {

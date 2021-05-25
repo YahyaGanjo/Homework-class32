@@ -28,11 +28,10 @@ const cartForParty = {
 };
 
 function calculateTotalPrice(partyCart) {
-  let sum = 0;
+  const sum = Object.keys(partyCart).reduce((acc, elem) => {
+    return acc + partyCart[elem];
+  }, 0);
   // eslint-disable-next-line no-restricted-syntax
-  for (const groceryItem in partyCart) {
-    sum += partyCart[groceryItem];
-  }
   return `Total: €${sum.toFixed(2)}`;
 }
 
