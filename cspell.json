@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "version": "0.1",
   "words": [
     "autofix",
@@ -24,3 +25,34 @@
     "Woww"
   ]
 }
+=======
+    "version": "0.1",
+    "words": [
+        "autofix",
+        "camelcase",
+        "clonedeep",
+        "Cryptr",
+        "eqeqeq",
+        "hplogo",
+        "htmlvalidate",
+        "networkidle",
+        "Philipp",
+        "pokemons",
+        "printf",
+        "rethrowing",
+        "srcset",
+        "sysinfo",
+        "systeminformation",
+        "testalt",
+        "testx",
+        "thruthy",
+        "typeof",
+        "usingapis",
+        "Woww",
+        "Xdpd"
+    ],
+    "ignoreWords": [
+        "yahya"
+    ]
+}
+>>>>>>> 0a200b7 (ex3 finished + ex1/2/3 tested)

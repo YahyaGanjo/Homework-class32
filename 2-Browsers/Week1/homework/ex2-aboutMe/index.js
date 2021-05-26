@@ -8,9 +8,10 @@
    `list-item`.
 ------------------------------------------------------------------------------*/
 
-// TODO add your JavaScript code here.
+// Changing the font-family of the body
 document.body.style.fontFamily = 'Arial, sans-serif';
 
+// Replacing each span with own information.
 const nickname = document.getElementById('nickname');
 nickname.textContent = 'Yahya';
 const favoriteFood = document.getElementById('fav-food');
@@ -18,5 +19,6 @@ favoriteFood.textContent = 'Pizza';
 const hometown = document.getElementById('hometown');
 hometown.textContent = 'Aleppo';
 
+// Adding class `list-item` to li
 const lis = Array.from(document.querySelectorAll('li'));
 lis.forEach((li) => (li.className = 'list-item'));

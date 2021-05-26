@@ -66,6 +66,7 @@ function createBookList(books) {
   function addImage(item, url) {
     const cover = document.createElement('img');
     cover.src = url;
+    cover.setAttribute('alt', url);
     cover.style.padding = '40px';
     item.appendChild(cover);
   }
