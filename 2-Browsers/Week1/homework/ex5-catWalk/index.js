@@ -28,21 +28,28 @@ function catWalk() {
   // to keep the img moving
   let moveTheCat = setInterval(moveCat, 50);
 
+  // to insure the cat dance only once in each catWalk() loop
+  let isDanced = false;
+
   // This function to move the cat 10px every 50 millisecond
   function moveCat() {
     cat.style.left = `${position}px`;
     position += 10;
 
     // restart the cat moving from the left side when it reaches the right edge
-    if (position === document.body.clientWidth) {
+    if (position >= document.body.clientWidth - cat.width) {
       position = 0;
+      isDanced = false;
     }
-
     // switch to dance cat then back to the original
-    if (position === document.body.clientWidth / 2) {
+    if (
+      position >= document.body.clientWidth / 2 - cat.width / 2 &&
+      !isDanced
+    ) {
       clearInterval(moveTheCat);
       cat.src =
         'https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
+      isDanced = true;
       setTimeout(function () {
         moveTheCat = setInterval(moveCat, 50);
         cat.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';

@@ -11,9 +11,9 @@ function addCurrentTime() {
   // show time in the page
   document.body.textContent = currentTime;
   document.body.style.textAlign = 'center';
-  // keeping time updated
-  setInterval(addCurrentTime, 1000);
 }
+// keeping time updated
+setInterval(addCurrentTime, 1000);
 
 // execute `addCurrentTime` when the browser has completed loading the page
 window.addEventListener('DOMContentLoaded', addCurrentTime);

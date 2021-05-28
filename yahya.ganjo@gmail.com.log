@@ -262,3 +262,31 @@ ex5-wallet/index.js
 2021-05-19 09:59:33 info: ------------------------------------------
 2021-05-19 09:59:39 info: All unit tests passed.
 2021-05-19 09:59:44 info: All steps were completed successfully
+2021-05-28 09:59:45 info: ----------------------------------------
+2021-05-28 09:59:45 info: >>> Running Unit Test `ex1-bookList` <<<
+2021-05-28 09:59:45 info: ----------------------------------------
+2021-05-28 09:59:57 info: All unit tests passed.
+2021-05-28 10:00:02 error: *** Spell Checker Report ***
+
+
+2021-05-28 10:00:20 info: ------------------------------------------
+2021-05-28 10:00:20 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-05-28 10:00:20 info: ------------------------------------------
+2021-05-28 10:00:25 info: All unit tests passed.
+2021-05-28 10:00:29 error: *** Spell Checker Report ***
+
+
+2021-05-28 10:00:54 info: --------------------------------------------
+2021-05-28 10:00:54 info: >>> Running Unit Test `ex4-whatsTheTime` <<<
+2021-05-28 10:00:54 info: --------------------------------------------
+2021-05-28 10:01:04 info: All unit tests passed.
+2021-05-28 10:01:08 error: *** Spell Checker Report ***
+
+
+2021-05-28 10:01:58 info: ---------------------------------------
+2021-05-28 10:01:58 info: >>> Running Unit Test `ex5-catWalk` <<<
+2021-05-28 10:01:58 info: ---------------------------------------
+2021-05-28 10:02:07 info: All unit tests passed.
+2021-05-28 10:02:11 error: *** Spell Checker Report ***
+
+

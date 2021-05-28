@@ -56,9 +56,9 @@ function createBookList(books) {
   booksList.style.listStyle = 'none';
   booksList.style.display = 'flex';
   titleAuthor.forEach((paragraph) => {
-    const listItems = document.createElement('li');
-    listItems.appendChild(paragraph);
-    booksList.appendChild(listItems);
+    const listItem = document.createElement('li');
+    listItem.appendChild(paragraph);
+    booksList.appendChild(listItem);
   });
 
   // make a function to link each li with an img
@@ -77,13 +77,10 @@ function createBookList(books) {
 
   // set the background color of each list item
 
-  for (let i = 0; i < listItems.length; i++) {
-    if (books[i].alreadyRead === true) {
-      listItems[i].style.backgroundColor = 'green';
-    } else {
-      listItems[i].style.backgroundColor = 'red';
-    }
-  }
+  listItems.forEach((item, idx) => {
+    item.style.backgroundColor = books[idx].alreadyRead ? 'green' : 'red';
+  });
+
   return booksList;
 }
 

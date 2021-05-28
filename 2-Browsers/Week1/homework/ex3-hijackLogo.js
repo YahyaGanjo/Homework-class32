@@ -7,7 +7,7 @@
 ------------------------------------------------------------------------------*/
 function hijackGoogleLogo() {
   // TODO your code goes in here
-  const logo = document.getElementsByClassName('lnXdpd');
+  const logo = document.querySelector('img[alt="Google"]');
   logo.src = 'https://avatars.githubusercontent.com/u/20858568?s=200&v=4';
   logo.srcset = 'https://avatars.githubusercontent.com/u/20858568?s=200&v=4';
 }
