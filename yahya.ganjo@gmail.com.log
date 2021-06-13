@@ -13,3 +13,8 @@
 2021-06-13 11:53:35 info: -------------------------------------------------
 2021-06-13 11:53:41 info: All unit tests passed.
 2021-06-13 11:53:46 info: All steps were completed successfully
+2021-06-14 12:50:09 info: ----------------------------------------
+2021-06-14 12:50:09 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-06-14 12:50:09 info: ----------------------------------------
+2021-06-14 12:50:16 info: All unit tests passed.
+2021-06-14 12:50:22 info: All steps were completed successfully
