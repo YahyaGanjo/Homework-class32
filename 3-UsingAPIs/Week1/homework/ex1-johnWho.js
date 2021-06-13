@@ -18,7 +18,9 @@ const getAnonName = (firstName) => {
   });
 };
 
-getAnonName('John').then(console.log).catch(console.log);
+getAnonName('John')
+  .then((result) => console.log(result))
+  .catch((error) => console.log(error));
 
 // ! Do not change or remove the code below
 module.exports = getAnonName;
