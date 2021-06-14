@@ -18,3 +18,13 @@
 2021-06-14 12:50:09 info: ----------------------------------------
 2021-06-14 12:50:16 info: All unit tests passed.
 2021-06-14 12:50:22 info: All steps were completed successfully
+2021-06-14 09:48:02 info: --------------------------------------------
+2021-06-14 09:48:02 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-06-14 09:48:02 info: --------------------------------------------
+2021-06-14 09:48:10 info: All unit tests passed.
+2021-06-14 09:48:16 info: All steps were completed successfully
+2021-06-14 09:54:24 info: --------------------------------------------
+2021-06-14 09:54:24 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-06-14 09:54:24 info: --------------------------------------------
+2021-06-14 09:54:29 info: All unit tests passed.
+2021-06-14 09:54:34 info: All steps were completed successfully

@@ -1,7 +1,7 @@
 'use strict';
 /*------------------------------------------------------------------------------
 - Run the unmodified program and confirm that problem described occurs.
-- Refactor the `rollBack()` function from callback-based to returning a
+- Refactor the `rollDice()` function from callback-based to returning a
   promise.
 - Change the calls to `callback()` to calls to `resolve()` and `reject()`.
 - Refactor the code that call `rollDice()` to use the promise it returns.
@@ -58,4 +58,4 @@ module.exports = rollDice;
 
 /* the problem doesn't occur any more cause the function returns promise now,
   since promise can take only one state which means that once it is rejected (roll > 6)
-  it couldn't be solved again */
+  it couldn't be solved or rejected again */

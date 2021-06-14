@@ -26,7 +26,8 @@ const rollDice = require('../../helpers/pokerDiceRoller');
 function rollTheDices() {
   // TODO Refactor this function
   const dices = [1, 2, 3, 4, 5];
-  return rollDice(1);
+  const rollingDices = dices.map((item) => rollDice(item));
+  return Promise.all(rollingDices);
 }
 
 rollTheDices()
@@ -35,3 +36,8 @@ rollTheDices()
 
 // ! Do not change or remove the code below
 module.exports = rollTheDices;
+
+/* once an element of the promises array is rejected, the Promise.all will
+be settled to rejected, but that doesn't affect the execution of rollDice 
+function, which will keep checking if (roll < randomRollsToDo) and
+logging to the console until (roll === randomRollsToDo)  */
