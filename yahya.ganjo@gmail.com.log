@@ -3,3 +3,90 @@
 2021-06-17 08:50:56 info: ---------------------------------------------
 2021-06-17 08:51:08 info: All unit tests passed.
 2021-06-17 08:51:13 info: All steps were completed successfully
+2021-06-19 02:02:37 info: ------------------------------------------
+2021-06-19 02:02:37 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-19 02:02:37 info: ------------------------------------------
+2021-06-19 02:02:51 info: All unit tests passed.
+2021-06-19 02:02:57 info: All steps were completed successfully
+2021-06-19 02:39:24 info: -----------------------------------------
+2021-06-19 02:39:24 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-06-19 02:39:24 info: -----------------------------------------
+2021-06-19 02:39:31 error: *** Unit Test Error Report ***
+
+- ex3-rollAnAce should use try/catch
+
+2021-06-19 02:44:51 info: -----------------------------------------
+2021-06-19 02:44:51 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-06-19 02:44:51 info: -----------------------------------------
+2021-06-19 02:44:57 info: All unit tests passed.
+2021-06-19 02:45:01 info: All steps were completed successfully
+2021-06-19 02:54:08 info: -----------------------------------------
+2021-06-19 02:54:08 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-06-19 02:54:08 info: -----------------------------------------
+2021-06-19 02:54:14 info: All unit tests passed.
+2021-06-19 02:54:18 info: All steps were completed successfully
+2021-06-19 03:29:32 info: -----------------------------------------
+2021-06-19 03:29:32 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-06-19 03:29:32 info: -----------------------------------------
+2021-06-19 03:29:40 info: All unit tests passed.
+2021-06-19 03:29:46 info: All steps were completed successfully
+2021-06-19 03:29:58 info: -----------------------------------------
+2021-06-19 03:29:58 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-06-19 03:29:58 info: -----------------------------------------
+2021-06-19 03:30:03 info: All unit tests passed.
+2021-06-19 03:30:07 info: All steps were completed successfully
+2021-06-19 04:18:13 info: -----------------------------------------
+2021-06-19 04:18:13 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-06-19 04:18:13 info: -----------------------------------------
+2021-06-19 04:18:19 info: All unit tests passed.
+2021-06-19 04:18:24 info: All steps were completed successfully
+2021-06-19 04:41:43 info: -----------------------------------------
+2021-06-19 04:41:43 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-06-19 04:41:43 info: -----------------------------------------
+2021-06-19 04:41:51 info: All unit tests passed.
+2021-06-19 04:41:56 info: All steps were completed successfully
+2021-06-19 05:02:16 info: ----------------------------------------
+2021-06-19 05:02:16 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-06-19 05:02:16 info: ----------------------------------------
+2021-06-19 05:02:21 info: All unit tests passed.
+2021-06-19 05:02:26 info: All steps were completed successfully
+2021-06-19 12:28:59 info: ----------------------------------------
+2021-06-19 12:28:59 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-06-19 12:28:59 info: ----------------------------------------
+2021-06-19 12:28:59 warn: A unit test file was not provided.
+2021-06-19 12:29:05 info: All steps were completed successfully
+2021-06-19 12:29:36 info: ----------------------------------------
+2021-06-19 12:29:36 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-06-19 12:29:36 info: ----------------------------------------
+2021-06-19 12:29:36 warn: A unit test file was not provided.
+2021-06-19 12:29:40 info: All steps were completed successfully
+2021-06-19 12:31:15 info: --------------------------------------------
+2021-06-19 12:31:15 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2021-06-19 12:31:15 info: --------------------------------------------
+2021-06-19 12:31:15 warn: A unit test file was not provided.
+2021-06-19 12:31:20 info: All steps were completed successfully
+2021-06-19 12:31:44 info: --------------------------------------------
+2021-06-19 12:31:44 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2021-06-19 12:31:44 info: --------------------------------------------
+2021-06-19 12:31:44 warn: A unit test file was not provided.
+2021-06-19 12:31:48 info: All steps were completed successfully
+2021-06-19 12:32:50 info: --------------------------------------------
+2021-06-19 12:32:50 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2021-06-19 12:32:50 info: --------------------------------------------
+2021-06-19 12:32:50 warn: A unit test file was not provided.
+2021-06-19 12:32:54 info: All steps were completed successfully
+2021-06-19 12:34:00 info: ----------------------------------------
+2021-06-19 12:34:00 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-06-19 12:34:00 info: ----------------------------------------
+2021-06-19 12:34:00 warn: A unit test file was not provided.
+2021-06-19 12:34:05 info: All steps were completed successfully
+2021-06-19 12:38:13 info: ----------------------------------------
+2021-06-19 12:38:13 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-06-19 12:38:13 info: ----------------------------------------
+2021-06-19 12:38:20 info: All unit tests passed.
+2021-06-19 12:38:25 info: All steps were completed successfully
+2021-06-19 12:40:07 info: ------------------------------------------
+2021-06-19 12:40:07 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-19 12:40:07 info: ------------------------------------------
+2021-06-19 12:40:17 info: All unit tests passed.
+2021-06-19 12:40:23 info: All steps were completed successfully
