@@ -17,7 +17,9 @@
 ------------------------------------------------------------------------------*/
 function requestData(url) {
   // TODO return a promise using `fetch()`
-  return fetch(url).then((data) => data.json());
+  return fetch(url)
+    .then((data) => data.json())
+    .catch((err) => console.log(err));
 }
 
 function renderImage(data) {
@@ -37,8 +39,8 @@ function renderError(error) {
 // TODO refactor with async/await and try/catch
 async function main() {
   try {
-    const request = await requestData('https://xkcd.now.sh/?comic=latest');
-    return renderImage(request);
+    const data = await requestData('https://xkcd.now.sh/?comic=latest');
+    renderImage(data);
   } catch (error) {
     renderError(error);
   }

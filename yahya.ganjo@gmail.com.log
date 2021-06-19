@@ -134,3 +134,8 @@
 2021-06-20 12:42:57 info: ------------------------------------------
 2021-06-20 12:43:07 info: All unit tests passed.
 2021-06-20 12:43:12 info: All steps were completed successfully
+2021-06-20 12:55:14 info: ---------------------------------------------
+2021-06-20 12:55:14 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-06-20 12:55:14 info: ---------------------------------------------
+2021-06-20 12:55:24 info: All unit tests passed.
+2021-06-20 12:55:30 info: All steps were completed successfully
