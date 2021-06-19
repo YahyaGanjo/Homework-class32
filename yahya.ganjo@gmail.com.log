@@ -90,3 +90,47 @@
 2021-06-19 12:40:07 info: ------------------------------------------
 2021-06-19 12:40:17 info: All unit tests passed.
 2021-06-19 12:40:23 info: All steps were completed successfully
+2021-06-20 12:31:58 info: ------------------------------------------
+2021-06-20 12:31:58 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-20 12:31:58 info: ------------------------------------------
+2021-06-20 12:32:11 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    11:73  error  <img> is missing required "src" attribute  element-required-attributes
+    11:73  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-06-20 12:35:51 info: ------------------------------------------
+2021-06-20 12:35:51 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-20 12:35:51 info: ------------------------------------------
+2021-06-20 12:36:00 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    11:73  error  <img> is missing required "src" attribute  element-required-attributes
+    11:73  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-06-20 12:36:52 info: ------------------------------------------
+2021-06-20 12:36:52 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-20 12:36:52 info: ------------------------------------------
+2021-06-20 12:37:00 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    11:73  error  <img> is missing required "alt" attribute  wcag/h37
+    11:73  error  Attribute "src" has invalid value ""       attribute-allowed-values
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-06-20 12:42:57 info: ------------------------------------------
+2021-06-20 12:42:57 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-06-20 12:42:57 info: ------------------------------------------
+2021-06-20 12:43:07 info: All unit tests passed.
+2021-06-20 12:43:12 info: All steps were completed successfully
